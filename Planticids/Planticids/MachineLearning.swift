@@ -114,6 +114,7 @@ struct TesteSwiftUI: View {
     var body: some View {
         
         VStack {
+            Text("The Planticids 🪴🎸\n").font(.title3)
             Button(action: {
                 isShowingAlert.toggle()
             }) {
