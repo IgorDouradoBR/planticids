@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC8CD5792ADB04A300357407 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CD5782ADB04A300357407 /* SpeciesView.swift */; };
 		CCB26BFF2AD7231200C9CF6C /* Plants_Api_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB26BFE2AD7231200C9CF6C /* Plants_Api_testApp.swift */; };
 		CCB26C012AD7231200C9CF6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB26C002AD7231200C9CF6C /* ContentView.swift */; };
 		CCB26C032AD7231300C9CF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB26C022AD7231300C9CF6C /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC8CD5782ADB04A300357407 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
 		CCB26BFB2AD7231200C9CF6C /* Plants Api test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plants Api test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB26BFE2AD7231200C9CF6C /* Plants_Api_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants_Api_testApp.swift; sourceTree = "<group>"; };
 		CCB26C002AD7231200C9CF6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				CCB26BFE2AD7231200C9CF6C /* Plants_Api_testApp.swift */,
 				CCB26C002AD7231200C9CF6C /* ContentView.swift */,
+				CC8CD5782ADB04A300357407 /* SpeciesView.swift */,
 				CCB26C282AD7237200C9CF6C /* PlantStruct.swift */,
 				CCB26C2A2AD729BE00C9CF6C /* NetworkPlantCall.swift */,
 				CCB26C022AD7231300C9CF6C /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8CD5792ADB04A300357407 /* SpeciesView.swift in Sources */,
 				CCB26C012AD7231200C9CF6C /* ContentView.swift in Sources */,
 				CCB26BFF2AD7231200C9CF6C /* Plants_Api_testApp.swift in Sources */,
 				CCB26C2B2AD729BE00C9CF6C /* NetworkPlantCall.swift in Sources */,

@@ -9,25 +9,9 @@ import Foundation
 
 struct PlantResults: Decodable {
     var data: [PlantListStruct]
-//    var to: Int
-//    var perPage: Int
-//    var currentPage: Int
-//    var from: Int
-//    var lastPage: Int
-//    var total: Int
-//    
-//    enum CodingKeys: String, CodingKey {
-//        case data
-//        case perPage = "per_Page"
-//        case currentPage = "current_page"
-//        case lastPage = "last_page"
-//        case to
-//        case from
-//        case total
-//    }
 }
 
-struct PlantListStruct: Decodable {
+struct PlantListStruct: Decodable, Identifiable {
     var id: Int
     var commonName: String
     var scientificName: [String]
@@ -42,11 +26,19 @@ struct PlantListStruct: Decodable {
 }
 
 struct SpeciesCharacterists: Decodable {
+    var commonName: String
     var type: String
     var cycle: String
     var watering: String
     var sunlight: [String]
     
+    enum CodingKeys: String, CodingKey {
+        case commonName = "common_name"
+        case type
+        case cycle
+        case watering
+        case sunlight
+    }
 }
 
 

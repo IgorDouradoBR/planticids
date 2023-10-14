@@ -11,20 +11,26 @@ struct ContentView: View {
     @EnvironmentObject var network: NetworkPlantCall
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            if !network.resultsPlants.isEmpty {
-                Text(network.resultsPlants.first?.commonName ?? "eh")
+        NavigationStack{
+            VStack {
+                if !network.resultsPlants.isEmpty {
+                    List{
+                        ForEach(network.resultsPlants) { plants in
+                            NavigationLink {
+                                SpeciesView(plantId: plants.id)
+                            } label: {
+                                Text(plants.commonName)
+                            }
+                        }
+                    }
+                }
+                
             }
-            
-        }
-        .padding()
-        .onAppear{
-            DispatchQueue.main.async {
-                network.getPlants()
+            .padding()
+            .onAppear{
+                DispatchQueue.main.async {
+                    network.getPlants()
+                }
             }
         }
     }
