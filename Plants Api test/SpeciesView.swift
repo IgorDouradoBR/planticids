@@ -15,7 +15,7 @@ struct SpeciesView: View {
     
     var body: some View {
         Text("\(plantId)")
-        Text(network.speciesResult.commonName)
+        Text(checkName(of: network.speciesResult.commonName))
         Text("cycle:" + network.speciesResult.cycle)
         Text("type:" + network.speciesResult.type)
         Text("watering:" + network.speciesResult.watering)
@@ -33,6 +33,6 @@ struct SpeciesView: View {
     
 }
 
-#Preview {
-    SpeciesView(plantId: 1)
-}
+//#Preview {
+//    SpeciesView(plantId: 1)
+//}
