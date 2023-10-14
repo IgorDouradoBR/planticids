@@ -19,7 +19,7 @@ struct ContentView: View {
                             NavigationLink {
                                 SpeciesView(plantId: plants.id)
                             } label: {
-                                Text(plants.commonName)
+                                Text(checkName(of: plants.commonName))
                             }
                         }
                     }

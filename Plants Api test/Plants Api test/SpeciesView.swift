@@ -15,11 +15,11 @@ struct SpeciesView: View {
     
     var body: some View {
         Text("\(plantId)")
-        Text(network.speciesResult.commonName)
-        Text("cycle: " + network.speciesResult.cycle)
-        Text("type: " + network.speciesResult.type)
-        Text("watering: " + network.speciesResult.watering)
-        Text("sunlight types: ")
+        Text(checkName(of: network.speciesResult.commonName))
+        Text("cycle:" + network.speciesResult.cycle)
+        Text("type:" + network.speciesResult.type)
+        Text("watering:" + network.speciesResult.watering)
+        Text("sunlight types:")
         ForEach(network.speciesResult.sunlight, id: \.self) { sunlight in
             Text(sunlight)
         }
@@ -33,6 +33,6 @@ struct SpeciesView: View {
     
 }
 
-#Preview {
-    SpeciesView(plantId: 1)
-}
+//#Preview {
+//    SpeciesView(plantId: 1)
+//}
