@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Plants Api test
+
+  Created by Luciana Lemos on 14/10/23.
+  
+*/
+"European Silver Fir" = "Abeto Prateado Europeu";
+"Pyramidalis Silver Fir" = "Abeto Prateado Pyramidalis";
+"White Fir" = "Abeto Branco";
+"Candicans White Fir" = "Candicans Abeto Branco";
+"Fraser Fir" = "Abeto Fraser";
+"Golden Korean Fir" = "Abeto Coreano Dourado";
+"Alpine Fir" = "Abeto Alpino";
+"Blue Spanish Fir" = "Abeto Espanhol Azul";
+"Noble Fir" = "Abeto Nobre";
+"Johin Japanese Maple" = "Johin Bordo Japonês";
+"Hello, world!" = "Olá, mundo!";

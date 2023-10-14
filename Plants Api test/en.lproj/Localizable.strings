@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Plants Api test
+
+  Created by Luciana Lemos on 14/10/23.
+  
+*/
+"European Silver Fir" = "European Silver Fir";
+"Pyramidalis Silver Fir" = "Pyramidalis Silver Fir";
+"White Fir" = "White Fir";
+"Candicans White Fir" = "Candicans White Fir";
+"Fraser Fir" = "Fraser Fir";
+"Golden Korean Fir" = "Golden Korean Fir";
+"Alpine Fir" = "Alpine Fir";
+"Blue Spanish Fir" = "Blue Spanish Fir";
+"Noble Fir" = "Noble Fir";
+"Johin Japanese Maple" = "Johin Japanese Maple";
+"Hello, world!" = "Hello, world!";

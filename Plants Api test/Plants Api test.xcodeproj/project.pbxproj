@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		739AA1072ADB5A54009F22B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739AA1092ADB5A54009F22B8 /* Localizable.strings */; };
+		739AA10C2ADB5A74009F22B8 /* CheckForTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739AA10B2ADB5A74009F22B8 /* CheckForTranslation.swift */; };
 		CC8CD5792ADB04A300357407 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CD5782ADB04A300357407 /* SpeciesView.swift */; };
 		CCB26BFF2AD7231200C9CF6C /* Plants_Api_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB26BFE2AD7231200C9CF6C /* Plants_Api_testApp.swift */; };
 		CCB26C012AD7231200C9CF6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB26C002AD7231200C9CF6C /* ContentView.swift */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		739AA1082ADB5A54009F22B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		739AA10A2ADB5A57009F22B8 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		739AA10B2ADB5A74009F22B8 /* CheckForTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForTranslation.swift; sourceTree = "<group>"; };
 		CC8CD5782ADB04A300357407 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
 		CCB26BFB2AD7231200C9CF6C /* Plants Api test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plants Api test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB26BFE2AD7231200C9CF6C /* Plants_Api_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants_Api_testApp.swift; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		CCB26BF22AD7231200C9CF6C = {
 			isa = PBXGroup;
 			children = (
+				739AA1092ADB5A54009F22B8 /* Localizable.strings */,
 				CCB26BFD2AD7231200C9CF6C /* Plants Api test */,
 				CCB26C0E2AD7231300C9CF6C /* Plants Api testTests */,
 				CCB26C182AD7231300C9CF6C /* Plants Api testUITests */,
@@ -105,6 +111,7 @@
 				CC8CD5782ADB04A300357407 /* SpeciesView.swift */,
 				CCB26C282AD7237200C9CF6C /* PlantStruct.swift */,
 				CCB26C2A2AD729BE00C9CF6C /* NetworkPlantCall.swift */,
+				739AA10B2ADB5A74009F22B8 /* CheckForTranslation.swift */,
 				CCB26C022AD7231300C9CF6C /* Assets.xcassets */,
 				CCB26C042AD7231300C9CF6C /* Preview Content */,
 			);
@@ -222,6 +229,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = CCB26BF22AD7231200C9CF6C;
 			productRefGroup = CCB26BFC2AD7231200C9CF6C /* Products */;
@@ -241,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB26C062AD7231300C9CF6C /* Preview Assets.xcassets in Resources */,
+				739AA1072ADB5A54009F22B8 /* Localizable.strings in Resources */,
 				CCB26C032AD7231300C9CF6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +277,7 @@
 			files = (
 				CC8CD5792ADB04A300357407 /* SpeciesView.swift in Sources */,
 				CCB26C012AD7231200C9CF6C /* ContentView.swift in Sources */,
+				739AA10C2ADB5A74009F22B8 /* CheckForTranslation.swift in Sources */,
 				CCB26BFF2AD7231200C9CF6C /* Plants_Api_testApp.swift in Sources */,
 				CCB26C2B2AD729BE00C9CF6C /* NetworkPlantCall.swift in Sources */,
 				CCB26C292AD7237200C9CF6C /* PlantStruct.swift in Sources */,
@@ -305,6 +315,18 @@
 			targetProxy = CCB26C162AD7231300C9CF6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		739AA1092ADB5A54009F22B8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739AA1082ADB5A54009F22B8 /* en */,
+				739AA10A2ADB5A57009F22B8 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CCB26C1D2AD7231300C9CF6C /* Debug */ = {
@@ -359,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
